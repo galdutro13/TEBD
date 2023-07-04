@@ -1,0 +1,44 @@
+.header {
+    background-color: #1F1F1F;
+  	justify-content: center;
+    width: 100vw;
+
+    &__inner {
+      height: 60px;
+      margin: 0 auto;
+      overflow: hidden;
+      padding-left: 20px;
+    }
+  
+    &__logo {
+      float: left;
+      padding-top: 13px;
+    }
+  
+    &__navigation {
+      float: right;
+      font-size: 14px;
+      height: 50px;
+      list-style: none;
+      padding-left: 0;
+      margin: 0 0 1rem;
+    }
+  
+    &__navigation-item {
+      display: block;
+      float: left;
+    }
+  
+    &__navigation-anchor {
+      color: #ffffff;
+      display: block;
+      padding: 22px 17px;
+  
+      &--active,
+      &:hover {
+        background-color: #1F1F1F;
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
+  }

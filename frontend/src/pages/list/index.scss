@@ -1,0 +1,43 @@
+@import '../../styles/breakpoints.scss';
+
+.songs-list{
+    @media (max-width: 600px)
+    {
+        width: 90vw;
+    }
+    width: 50vw;
+}
+.img-song{
+    margin-right: 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.description{
+    margin: 20px;
+    text-align: center;
+    h1, h2 {
+        color: #4280b3;
+    }
+    cursor: default;
+}
+.div-content{
+    justify-content: center;
+    display: flex;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
